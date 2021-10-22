@@ -1,0 +1,42 @@
+<!--
+File Name:about.ejs
+Author: Ece Irem Burgaz
+Student ID:301162609
+Date: 2021-10-01
+-->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<main class="container">
+    <div class="jumbotron">
+      <div style="width: 100%; overflow: hidden;">
+        <div class="vertical-center">
+          <div class="left" style=" text-align: center;">
+            <div >
+              <h1 class="display-4" style="font-size: 30px; text-align:center"><i class="far fa-lg fa-question-circle"></i> &nbsp;&nbsp;<b>Welcome to the <%= title %> Page! </b></h1>
+              <br>
+                <h3> About me! </h3>
+                <br>
+                <p> I graduated from the university in 2016 as a city planner. I worked in my country <br>
+                as a city planner for a few years. Then I decided to improve myself on the software.<br>
+                 That's why I started the Software Engineering- Artificial Intelligent at Centennial <br>
+                 College in January 2021. After completing my first semester in my country, I came <br>
+                 to Canada with my husband and cat in May 2021. I am currently continuing my third semester. </p>
+            </div>
+          <div style="display: flex;">
+                <a href="\Assests\images\ece_irem_burgaz_cv.pdf"><button type="button" class="btn btn-primary btn-sm">Resume!</button></a>
+                <p> &nbsp;&nbsp;  Click here to see my resume!</p>
+            </div>
+          
+        </div>
+      </div>
+      <div >
+          <img src="\Assests\images\mypicture.JPG" alt="ece_burgaz" height="300" style="float:right; margin: 0px 0px 15px 15px;" class="centered" >
+          </div>
+    </div>
+</main>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
